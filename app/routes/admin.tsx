@@ -22,7 +22,7 @@ export default function Admin() {
         <ul>
           {posts.map((post) => (
             <li key={post.slug}>
-              <Link to={`/posts/${post.slug}`}>
+              <Link to={`/admin/${post.slug}`}>
                 {post.title}
               </Link>
             </li>
